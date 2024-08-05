@@ -1,0 +1,3 @@
+annotation é quando definimos o tipo de dado manualmente
+
+inference é quando definimos uma variavél pela primeira vez como uma string, ela só aceitará mudar para string futuramente...serve pra qualquer tipo de dado
