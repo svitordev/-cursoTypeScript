@@ -70,6 +70,7 @@ console.log(mergeArrays<number | string>([1, 2, 3], ["9", "4"]));
 
 //6 Parâmetros opcionais
 function modernGreeting(name: string, greet?: string) {
+  //norrowing para verificar se existe o parâmetro
   if (greet) {
     return `Olá ${greet} ${name}, tudo bem?`;
   }
